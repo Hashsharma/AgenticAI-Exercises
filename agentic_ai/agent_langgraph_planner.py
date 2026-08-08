@@ -24,10 +24,17 @@ def multiply(a: int, b: int):
     """Multiply two numbers."""
     return a * b
 
+@tool
+def subtraction(a: int, b: int):
+    """Subtract two numbers."""
+    return a - b
+
+
 
 tools = {
     "add": add,
-    "multiply": multiply
+    "multiply": multiply,
+    "subtract": subtraction
 }
 
 
